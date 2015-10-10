@@ -1,0 +1,23 @@
+{
+  "name": "encblob",
+  "version": "0.1.0",
+  "description": "Passphrase-based encryption and decryption library",
+  "keywords": [
+    "encryption",
+    "decryption"
+  ],
+  "license": "ISC",
+  "author": "Chung-Hay Luk <luk@chunghay.com>",
+  "main": "encblob.js",
+  "bin" : {
+    "mkblob" : "mkblob.js",
+    "readblob" : "readblob.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chunghay/encblob.git"
+  },
+  "dependencies": {
+    "libsodium-wrappers": "^0.2.10"
+  }
+}
